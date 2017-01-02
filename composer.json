@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "Open-Falcon监控程序的邮件、短信发送接口",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "phpmailer/phpmailer": "v5.2.21",
+    "sofire/qsms": ">=v1.1.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.org/",
+      "urlbak": "https://packagist.phpcomposer.com"
+    }
+  }
+}
