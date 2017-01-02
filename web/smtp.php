@@ -29,7 +29,7 @@ function smtp($subject, $content, $tos)
 
     $config = $config['smtp'];
 
-    $mail->SMTPDebug = 3;                                // Enable verbose debug output
+    //$mail->SMTPDebug = 3;                                // Enable verbose debug output
 
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = $config['host'];  // Specify main and backup SMTP servers
